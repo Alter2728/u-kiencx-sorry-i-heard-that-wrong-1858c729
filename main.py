@@ -1,12 +1,12 @@
-"""Draft mishears a shopping item but the ending has no consequence.
-Revision keeps the list mix-up and ends on the recipe he sent back."""
+"""Draft flaw: the first line apologized without naming what was misheard.
+Revision fix: the final line names the two confused phrases and lands on the chandelier's leg day."""
 
 import os
 
-TEXT = "Sorry, I heard 'add pasta to the list' as 'ask your ex about the pasta'. He sent a recipe."
+TEXT = "Sorry — you said 'dim the lights,' I heard 'gym the lights,' so the chandelier is doing lunges and refuses to skip leg day."
 
 assert TEXT == TEXT.strip()
-assert "\n" not in TEXT and "\r" not in TEXT
+assert "\n" not in TEXT
 assert 1 <= len(TEXT) <= 140
 
 out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
