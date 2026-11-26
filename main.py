@@ -1,9 +1,9 @@
-"""Draft was a generic misheard song title with no consequence.
-Revision makes the mishearing act on the owner's life and ends on the reply."""
+"""Draft mishears a shopping item but the ending has no consequence.
+Revision keeps the list mix-up and ends on the recipe he sent back."""
 
 import os
 
-TEXT = "Sorry, I heard 'set a timer for the pasta' as 'text your ex about the pasta'. He replied."
+TEXT = "Sorry, I heard 'add pasta to the list' as 'ask your ex about the pasta'. He sent a recipe."
 
 assert TEXT == TEXT.strip()
 assert "\n" not in TEXT and "\r" not in TEXT
